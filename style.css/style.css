@@ -1,0 +1,159 @@
+body {
+    background-color: #f2f6fb;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 700px;
+    margin: 40px auto;
+    background-color: white;
+    padding: 30px;
+    border-radius: 12px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+p {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.6;
+}
+
+img {
+    display: block;
+    margin: 20px auto;
+    width: 300px;
+    border-radius: 10px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+li {
+    display: inline;
+    margin: 0 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #4a7bd0;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+.title{
+  background-color: #3b82f6;
+  color: white;
+  text-align: center;
+  padding: 22px;
+  border-radius: 16px;
+  margin-bottom: 25px;
+}
+.card p{
+background-color: #ffffff;
+padding: 18px 20 px;
+border-radius: 14px;
+margin: 15px 0;
+font-size: 16px;
+line-height: 1.7;
+color: #444;
+box-shadow: 0 6px 14 px;
+}
+.navigation{
+  text-align: center;
+  margin-top: 30px;
+}
+.navigation-link{
+  display: inline-block;
+  padding: 14px 22px;
+  margin: 0 10px;
+  border-radius: 14px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 16px;
+  color: white;
+  transition: transform 0.2s box-shadow 0.2s;
+}
+/*contact*/
+.navigation-link.contact{
+  background: linear-gradient(to right, #3b82f6,#60a5fa);
+}
+/*gallery*/
+.navigation-link.gallery{
+  background: linear-gradient(to right, #10b981, #34d399);
+}
+.navigation-link:hover{
+  transform: translateY(-2px);
+  box-shadow: 0 8px 18px;
+}
+.contact_box{
+  width: 700px;
+  margin: 40 px auto;
+  padding: 30px;
+  border-radius: 12px;
+}
+.contact-form label{
+display: block;
+margin-top: 15px;
+margin-bottom: 6px;
+font-weight: bold;
+color: #1e3a8a;
+}
+.contact-form input[type="text"]{
+  width: 100%;
+  padding: 12px;
+  border-radius: 10px;
+  border: 1 px solid #cbd5f5;
+  font-size: 15px;
+}
+.contact-form input[type="text"]:focus {
+    outline: none;
+    border-color: #3b82f6;
+    background-color: #f0f6ff;
+}
+.contact-form input[type="Submit"] {
+  margin-top: 25px;
+  width: 100%;
+  padding: 12px;
+  background-color: #3b82f6;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+.contact-form input[type="Submit"]:hover{
+  background-color: #2563eb;
+  transform: translateY(-2px);
+}
+.gallery-box{
+  width: 900px;
+  margin: 40 px auto;
+  background-color: white;
+  padding: 30px;
+  border-radius: 14px;text-align: center;
+}
+.gallery-box{
+  margin-top: 20px;
+}
+.gallery img{
+  width: 220px;
+  height: 220px;
+  object-fit: cover;
+  margin: 10 px;
+  border-radius: 14px;
+  box-shadow: 0 6px 14px;
+  transition: transform 0.2s;
+}
+.gallery img :hover{
+  transform: scale(1.05);
+}
